@@ -1,7 +1,5 @@
 *.aux
 *.gz
-*.tmp
 *.log
 *.out
-*.bbl
-*.blg
+report/

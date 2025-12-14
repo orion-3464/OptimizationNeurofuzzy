@@ -29,7 +29,7 @@ def rosenbrock_grad(x, y):
     grady = 2*b*(y-x**2)
     return np.array([gradx, grady])
 
-def GD(grad, x=np.zeros(2, dtype=np.float32) ,lr=1e-3, max_iter=10000):
+def GD(grad, x=np.zeros(2, dtype=np.float32), lr=1e-3, max_iter=10000):
     path = []
     x_prev = np.ones(2)*1000
 
